@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(44, 39, 39);
+}
+h3 {
+  display: inline-block;
+  color: white;
+  font-family: "Redressed", cursive;
+  padding-right: 12px;
+}
+.left-1 {
+  display: inline-block;
+}
+.right-1 {
+  display: inline-block;
+  padding-left: 38%;
+}
+#a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+input[type="button"] {
+  padding: 9px;
+  margin: 6px;
+  border-radius: 6px;
+  background-color: rgb(44, 39, 39);
+  color: white;
+  border: 1px solid white;
+}
+input[type="search"] {
+  padding: 9px;
+  margin: 6px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+header::after {
+  content: "";
+  background: url(https://source.unsplash.com/random) no-repeat center center /
+    cover;
+  height: 500%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 120px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Redressed", cursive;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+#para {
+  font-size:15px;
+  font-family:cursive;
+  color: black;
+}
+#img {
+  padding-left: 140px;
+  padding-top: 43px;
+}
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#b {
+  text-decoration: none;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 8px;
+  width: 135px;
+  border-radius: 60px;
+  text-align: center;
+  color: black;
+  transition:all 2s  ease-in-out 1ms;
+}
+#b:hover{
+  background-color: blueviolet ;
+}
+.center {
+  display: flex;
+  margin-left: 17%;
+  height: 50px;
+
+  align-items: center;
+  justify-content: center;
+}
+#c {
+  text-decoration: none;
+  background-color: black;
+  margin: 10px;
+  padding: 8px;
+  width: 135px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 23px;
+    border-radius: 50px;
+    transition: transform 1s ease-in-out 0.3s;
+}
+.item:hover{
+    transform: scale(1.2);
+}
+h2{
+    text-align: center;
+    font-family: "Redressed", cursive;
+}
+input[type='submit']{
+  
+    background-color: burlywood;
+    
+   
+    border-radius: 60px;
+    text-align: center;
+    color: black;
+}
